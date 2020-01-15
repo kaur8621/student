@@ -15,14 +15,6 @@ public class Student {
     private double GPA;
     private String email;
 private int idd;
-
-    public int getIdd() {
-        return idd;
-    }
-
-    public void setIdd(int idd) {
-        this.idd = idd;
-    }
     public double getGPA() {
         return GPA;
     }
