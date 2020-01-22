@@ -10,6 +10,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * @author sidhu376--22/01/2020-harmanpreet kaur
  */
 public class Student {
+
+    private String status;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
     
     private String name;
     private double GPA;
